@@ -6,70 +6,109 @@
     <title>Lucia's PHY-131 Code Showcase</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fbe2e3; /* Light pink background */
+            color: #333;
         }
         .container {
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            background: #ffffff;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
         }
-        h1 {
+        h1, h2 {
+            color: #e91e63; /* Pink color for headings */
             text-align: center;
         }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
         pre {
-            background: #272822;
-            color: #f8f8f2;
-            padding: 10px;
-            border-radius: 5px;
+            background: #f2c1d9; /* Light pink for pre blocks */
+            color: #2e3b4e;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
             overflow-x: auto;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        iframe:hover {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 20px;
+            color: #d81b60; /* Darker pink for subheadings */
+        }
+        .project-description {
+            font-size: 14px;
+            color: #b2b2b2;
+            margin-top: 5px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #b2b2b2;
+        }
+        footer a {
+            color: #e91e63;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>PHY-131 Code Showcase</h1>
-        <p> Welcome to my physics programming showcase! Below are some of the codes I've worked on in this course.</p>
+        <p>Welcome to my physics programming showcase! Below are some of the codes I've worked on in this course.</p>
         
-        <h2>Project 1 & 2: Preview of a End Goal</h2>
-        <p>Description: This is an example of a physics simulation in Python.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/1e44a6fb2e3b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div>
+        <h2>Project 1 & 2: Preview of an End Goal</h2>
+        <p class="project-description">This is an example of a physics simulation in Python.</p>
+        <iframe src="https://trinket.io/embed/python/1e44a6fb2e3b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        
         <h2>Project 3: How Many Handshakes?</h2>
-        <p>Description: Allows user to input a number of people; calculates the corresponding number of handshakes.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/f90393873c14" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div>
+        <p class="project-description">Allows user to input a number of people; calculates the corresponding number of handshakes.</p>
+        <iframe src="https://trinket.io/embed/python/f90393873c14" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
         <h2>Project 3.5: How Many Trees?</h2>
-        <p>Description: A fun side project which indicates how many trees might be in an acre, based on user input.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/354d4feffde5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div>
+        <p class="project-description">A fun side project which indicates how many trees might be in an acre, based on user input.</p>
+        <iframe src="https://trinket.io/embed/python/354d4feffde5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
         <h2>Project 4: Drawing a Circle with Turtle</h2>
-        <p>Description: This is an example of a physics simulation in Python.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/12db9d7dde6e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div> 
-       <h2>Project 5: Guessing a User Input Password</h2>
-        <p>Description: Allows user to input a password; guesses it.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/92abea4e9536" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div> 
+        <p class="project-description">This is an example of a physics simulation in Python.</p>
+        <iframe src="https://trinket.io/embed/python/12db9d7dde6e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+        <h2>Project 5: Guessing a User Input Password</h2>
+        <p class="project-description">Allows user to input a password; guesses it.</p>
+        <iframe src="https://trinket.io/embed/python/92abea4e9536" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
         <h2>Project 6: Computing Statistics with Kiva Data</h2>
-        <p>Description: Computes statistics based off of instruction and data given.</p>
-        <pre>
-<iframe src="https://trinket.io/embed/python/92abea4e9536" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-        </pre>
-    </div> 
+        <p class="project-description">Computes statistics based on instructions and data given.</p>
+        <iframe src="https://trinket.io/embed/python/92abea4e9536" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Lucia's PHY-131 Showcase | <a href="mailto:lucia@example.com">Contact me</a></p>
+    </footer>
 </body>
 </html>
